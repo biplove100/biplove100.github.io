@@ -1,4 +1,5 @@
-# Coding Assessment L2 - Frontend Intern Position (Marmeto) E-commerce Product Display Project
+# Coding Assessment L2 - Frontend Intern Position (Marmeto) 
+(E-commerce Product Display Project)
 
 ## Overview
 This project is an e-commerce product display website that fetches product data from a Shopify API and dynamically displays products based on user-selected categories. It allows users to choose between Men, Women, and Kids categories to view corresponding products.
