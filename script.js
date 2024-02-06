@@ -20,7 +20,7 @@ async function men() {
   const data = await fetchData(0);
   console.log(data);
   renderProducts(data);
-}
+} 
 
 async function women() {
   const data = await fetchData(1);
