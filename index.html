@@ -1,285 +1,352 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biplove Singh</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/aos.css">
-    <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
-    <link rel="stylesheet" href="./assets/css/style1.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar">
+  <body>
+    <!-- HEADER-SECTION BEGINS -->
+    <header class="header">
+      <a href="#home" class="logo"
+        >Biplove
+        <span>Singh</span>
+      </a>
 
-    <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container flex-lg-column">
-            <a class="navbar-brand mb-lg-4 mx-lg-auto" href="#">
-                <span class="h3 fw-bold d-block d-lg-none">Biplove Singh</span>
-                <img src="./assets/images/IMG_20210228_231033.jpg" alt="BS" class="d-none d-lg-block">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#work">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#reviews">Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#Education">Education</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <!-- HEADER-SECTION ENDS -->
+
+    <!-- HOME-SECTION BEGINS -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, It's <span>Biplove</span></h1>
+        <h3 class="text-animation">I'm a <span> </span></h3>
+        <p>
+          Passionate MERN Stack Developer seeking to leverage full-stack
+          expertise to build scalable, user-centric web applications. Eager to
+          contribute to innovative projects, solve complex problems, and grow in
+          a collaborative environment. Committed to continuous learning and
+          delivering high-quality, impactful solutions that drive user
+          engagement and business success.
+        </p>
+
+        <div class="social-icons">
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+          <a href="#"><i class="bx bxl-github"></i></a>
+          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
         </div>
-    </nav>
-    <!--NAVBAR END-->
 
-    <!--CONTENT WRAPPER-->
-    <div id="content-wrapper">
-        <!--HOME-->
-        <section id="home" class="full-height px-lg-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10">
-                        <h1 class="display-6 fw-bold" data-aos="fade-up">I'M A <span class="text-brand">SOFTWARE
-                                DEVELOPER/ WEB DEVELOPER</span> FROM INDIA</h1>
-                        <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I am Biplove Singh, And I
-                            develop high-performing and delightful experiences tailored and client-focused Websites</p>
-                        <div data-aos="fade-up" data-aos-delay="500">
-                            <a href="#work" class="btn btn-brand me-3">Explore my Work</a>
-                            <a href="#" class="link-custom">Call: (+91) 99999 99999</a>
-                        </div>
-                    </div>
-                </div>
+        <div class="btn-group">
+          <a href="#" class="btn">Hire</a>
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="image.jpg" alt="Home-MyLeft-Profile-Image" />
+      </div>
+    </section>
+    <!-- HOME-SECTION ENDS -->
+
+    <!-- EDUCATION SECTION -->
+    <section class="education" id="Education">
+      <h2 class="heading">Education & Work</h2>
+
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Dec 2024 - March 2025</div>
+          <div class="timeline-content">
+            <h3>Frontend Developer Trainer - Codershive Academy</h3>
+            <p>
+              - Created Frontend Development Course containing 50+ lectures on
+              YouTube. <br />
+              - Also, Hired and Trained new developers and lead the team of 5
+              developers to develop fully functional websites for 3+ clients.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Sept 2020 - Aug 2025</div>
+          <div class="timeline-content">
+            <h3>B.Tech - JECRC University</h3>
+            <p>
+              - Completed my Mechanical Engineering degree with 8.3 CGPA. <br />
+              - In this university I got exposure to coding and Development &
+              got involved in a number of communities. <br />
+              - Because of which I learn MERN stack, Java, DSA, Object Oriented
+              Programming along with management skills, event coordination,
+              leadership and presure hanndling.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2017 - 2019</div>
+          <div class="timeline-content">
+            <h3>Class 12th - DAV Public School</h3>
+            <p>
+              - Achieved 84.4% in Class 12th. <br />
+              - I have grown a lot in the two years that i have spent at this
+              school because of the environment, Teachers and other students.
+              <br />
+              - I have represented my school in three state level Science
+              Exhibition with my very own BrainChild named, The Concavo Steam
+              Heat & Electricity Generator. <br />
+              - I was elected as the 'School Vice-Captain' in class 12th. <br />
+              - I have conducted a large number of events of the school with the
+              help of my 'Council Team'. <br />
+              - Also, I am given the Title of "The Youth Icon" for my excellent
+              works and my 'Enthusiastic + Inspiring Energy'. <br />
+              - I have found 2 great friend at this school who made the two
+              years journey very special for me. <br />
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2011-2017</div>
+          <div class="timeline-content">
+            <h3>Class 10th - Lions Public School</h3>
+            <p>
+              - Achieved 10CGPA in class 10th. <br />
+              - I spent my best 5 years at this school. <br />
+              - I learned a lot of concepts that were there in the syllabus and
+              a lot of concepts that were not in my syllabus. Also i learned a
+              lot of Life lessons from the Inspiring Teachers of my School.<br />
+              - I represented my school in district level in Science Exhibition
+              with two project, namely Windmill & Uranium Fission Reaction.
+              <br />
+              - Also i made a lot of fun memories with my friends who are still
+              there in touch with me and only because of them i have enjoyed my
+              school life in it's best possible way. <br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+
+    <section class="services" id="services">
+      <h2 class="heading">Services</h2>
+
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Full Stack Web Development</h4>
+            <p>
+              I build powerful, end-to-end web applications using MongoDB,
+              Express, React, and Node.js. From user interface to backend
+              architecture, I ensure scalable, secure, and efficient solutions.
+              My experience with APIs, databases, and UI/UX principles allows me
+              to deliver complete applications tailored to business goals and
+              user needs.
+            </p>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Frontend Development</h4>
+            <p>
+              As a Frontend Developer, I specialize in creating responsive,
+              interactive, and visually appealing user interfaces. Using HTML,
+              CSS, JavaScript, and modern frameworks like React, I transform
+              design ideas into seamless digital experiences, optimizing
+              performance, accessibility, and cross-device compatibility for an
+              engaging user journey.
+            </p>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Backend Development</h4>
+            <p>
+              I develop reliable, scalable, and secure server-side logic using
+              Node.js, Express, and MongoDB. I focus on building robust APIs,
+              handling data efficiently, and ensuring smooth integration with
+              frontend systems. My backend solutions power real-time features,
+              user authentication, data storage, and business logic with high
+              performance and reliability.
+            </p>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Frontend Designer</h4>
+            <p>
+              I craft elegant, user-friendly designs that align with modern
+              UI/UX principles. Combining creativity with technical skills in
+              HTML, CSS, Bootstrap, and responsive design, I deliver polished,
+              visually consistent layouts that enhance user experience and brand
+              identity. My designs bring ideas to life while keeping usability
+              and accessibility at the core.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+
+    <!-- TESTIMONIALS  SECTIONS -->
+    <section class="testimonials" id="testimonials">
+      <div class="testimonials-box">
+        <h2 class="heading">Projects</h2>
+
+        <div class="wrapper">
+          <a href="https://wanderlust-n3qp.onrender.com/listings"
+            ><div class="testimonial-items">
+              <img src="1.jpg" alt="1.jpg" />
+              <h2>Wanderlust</h2>
+              <div class="rating">
+                <i class="bx bxs-star" id="star"></i>
+                <i class="bx bxs-star" id="star"></i>
+                <i class="bx bxs-star" id="star"></i>
+                <i class="bx bxs-star" id="star"></i>
+                <i class="bx bxs-star" id="star"></i>
+              </div>
+              <p>
+                Wanderlust is a full-stack hotel/villa booking app built with
+                Node.js, Express, MongoDB, Mongoose, and EJS. It supports full
+                CRUD, auth via passport, commenting, ratings, MapBox
+                integration, Cloudinary image uploads, and structured with MVC,
+                Joi validation, and method-override. Logged-in users can manage
+                listings and reviews. Admin error handling ensures robustness.
+              </p>
             </div>
-        </section>
-        <!--HOME END-->
+          </a>
 
-        <!--SERVICES-->
-        <section id="services" class="full-height px-lg-5">
-            <div class="container">
-                <div class="row pb-4" data-aos="fade-up">
-                    <div class="col-lg-8">
-                        <h6 class="text-brand">SERVICES</h6>
-                        <h1>Services That I Provide</h1>
-                    </div>
-                </div>
-
-                <div class="row gy-4">
-                    <div class="col-md-4" data-aos="fade-up">
-                        <div class="service p-4 bg-base rounded-4 shadow-effect">
-                            <div class="iconbox rounded-4">
-                                <i class="las la-feather"></i>
-                            </div>
-                            <h5 class="mt-4 mb-2">Website Development</h5>
-                            <p>I develop high-performing and delightful experiences tailored and client-focused
-                                Websites.</p>
-                            <a href="#" class="link-custom">Read More</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                        <div class="service p-4 bg-base rounded-4 shadow-effect">
-                            <div class="iconbox rounded-4">
-                                <i class="las la-feather"></i> <!--Line Awesome Website Icons-->
-                            </div>
-                            <h5 class="mt-4 mb-2">Website Development</h5>
-                            <p>I develop high-performing and delightful experiences tailored and client-focused
-                                Websites.</p>
-                            <a href="#" class="link-custom">Read More</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
-                        <div class="service p-4 bg-base rounded-4 shadow-effect">
-                            <div class="iconbox rounded-4">
-                                <i class="las la-feather"></i>
-                            </div>
-                            <h5 class="mt-4 mb-2">Website Development</h5>
-                            <p>I develop high-performing and delightful experiences tailored and client-focused
-                                Websites.</p>
-                            <a href="#" class="link-custom">Read More</a>
-                        </div>
-                    </div>
-                </div>
+          <a href="https://instamudradashboard.onrender.com/">
+            <div class="testimonial-items">
+              <img src="2.png" alt="2.png" />
+              <h2>Instamudra Dashboard</h2>
+              <div class="rating">
+                <i class="bx bxs-star" id="star"></i>
+                <i class="bx bxs-star" id="star"></i>
+                <i class="bx bxs-star" id="star"></i>
+                <i class="bx bxs-star" id="star"></i>
+                <i class="bx bxs-star" id="star"></i>
+              </div>
+              <p>
+                A secure, role-based transaction tracking web application built
+                with the MERN stack (MongoDB, Express, Node.js, EJS, and
+                Mongoose). This system allows admins and employees to log,
+                verify, and manage financial transactions, featuring card
+                validation, dynamic fee calculation, filtering, and access
+                control.
+              </p>
             </div>
-        </section>
-        <!--SERVICES END-->
+          </a>
 
-        <!--WORK-->
-        <section id="work" class="full-height px-lg-5">
-            <div class="container">
-                <div class="row pb-4" data-aos="fade-up">
-                    <div class="col-lg-8">
-                        <h6 class="text-brand">WORK</h6>
-                        <h1>My Recent Projects</h1>
-                    </div>
-                </div>
-
-                <div class="row gy-4">
-
-                    <div class="col-md-6" data-aos="fade-up">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/project-1.jpg" alt="">
-                            </div>
-                            <div class="card-custom-content p-4">
-                                <h4>Startup Landing Page</h4>
-                                <p>Innovation that exceeds expectations. Astra is a true template equiped with all the elements you could ever need to put together.</p>
-                                <a href="#" class="link-custom">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/project-2.png" alt="">
-                            </div>
-                            <div class="card-custom-content p-4">
-                                <h4>Startup Landing Page</h4>
-                                <p>Innovation that exceeds expectations. Astra is a true template equiped with all the elements you could ever need to put together.</p>
-                                <a href="#" class="link-custom">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6" data-aos="fade-up">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/project-3.png" alt="">
-                            </div>
-                            <div class="card-custom-content p-4">
-                                <h4>Startup Landing Page</h4>
-                                <p>Innovation that exceeds expectations. Astra is a true template equiped with all the elements you could ever need to put together.</p>
-                                <a href="#" class="link-custom">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/project-4.png" alt="">
-                            </div>
-                            <div class="card-custom-content p-4">
-                                <h4>Startup Landing Page</h4>
-                                <p>Innovation that exceeds expectations. Astra is a true template equiped with all the elements you could ever need to put together.</p>
-                                <a href="#" class="link-custom">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+          <a href="https://github.com/biplove100?tab=repositories">
+          <div class="testimonial-items">
+            <img src="3.png" alt="3.jpeg" />
+            <h2>Other Projects</h2>
+            <div class="rating">
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i> 
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
             </div>
-        </section>
-        <!--WORK END-->
+            <p>
+              I have created 10+ projects that include MERN stack projects, React Projects, 
+              Backend Projects with Node.js and Express.js, simple frontend projects using HTML, CSS & JavaScript
+            </p>
+          </div>
+        </a>
+        </div>
+      </div>
+    </section>
 
-        <!--ABOUT-->
-        <section id="about" class="full-height px-lg-5">
-            <div class="container">
+    <!-- TESTIMONIALS  SECTIONS -->
 
-                <div class="row pb-4" data-aos="fade-up">
-                    <div class="col-lg-8">
-                        <h6 class="text-brand">About</h6>
-                        <h1>My Education & Expertise</h1>
-                    </div>
-                </div>
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
 
-                <div class="row gy-5">
-                    <div class="col-lg-6">
-                        <h4 class="mb-4" data-aos="fade-up" data-aos-delay="300">Education</h4>
-                        <div class="row gy-4">
+      <form action="">
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text" placeholder="Full Name" />
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="input-box">
+            <input type="number" placeholder="Phone Number" />
+            <input type="text" placeholder="Subject" />
+          </div>
+        </div>
+        <div class="input-group-2">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+        </div>
+      </form>
+    </section>
 
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h5>Bachelor of Mechanical Engineering</h5>
-                                    <p class="text-brand mb-2">JECRC University Jaipur India (2020 - 2024)</p>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, distinctio quidem! Quas expedita omnis soluta corporis maiores iusto suscipit voluptatem </p>
-                                </div>
-                            </div>
+    <!-- CONTACT SECTION -->
 
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h5>Bachelor of Mechanical Engineering</h5>
-                                    <p class="text-brand mb-2">JECRC University Jaipur India (2020 - 2024)</p>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, distinctio quidem! Quas expedita omnis soluta corporis maiores iusto suscipit voluptatem </p>
-                                </div>
-                            </div>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="social">
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
+        <a href="#"><i class="bx bxl-github"></i></a>
+        <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+      </div>
 
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h5>Bachelor of Mechanical Engineering</h5>
-                                    <p class="text-brand mb-2">JECRC University Jaipur India (2020 - 2024)</p>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, distinctio quidem! Quas expedita omnis soluta corporis maiores iusto suscipit voluptatem </p>
-                                </div>
-                            </div>
+      <ul class="list">
+        <li>
+          <a href="#">FAQ</a>
+        </li>
 
-                        </div>
+        <li>
+          <a href="#">Services</a>
+        </li>
 
-                    </div>
+        <li>
+          <a href="#">About Me</a>
+        </li>
 
-                    <div class="col-lg-6">
-                        <h4 class="mb-4" data-aos="fade-up" data-aos-delay="300">Expertise</h4>
-                        <div class="row gy-4">
+        <li>
+          <a href="#">Contact</a>
+        </li>
 
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h5>Bachelor of Mechanical Engineering</h5>
-                                    <p class="text-brand mb-2">JECRC University Jaipur India (2020 - 2024)</p>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, distinctio quidem! Quas expedita omnis soluta corporis maiores iusto suscipit voluptatem </p>
-                                </div>
-                            </div>
+        <li>
+          <a href="#">Testimonials</a>
+        </li>
+      </ul>
+      <p class="copyright">&copy; Biplove Singh | All Rights Reserved</p>
+    </footer>
 
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h5>Bachelor of Mechanical Engineering</h5>
-                                    <p class="text-brand mb-2">JECRC University Jaipur India (2020 - 2024)</p>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, distinctio quidem! Quas expedita omnis soluta corporis maiores iusto suscipit voluptatem </p>
-                                </div>
-                            </div>
+    <!-- FOOTER -->
 
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h5>Bachelor of Mechanical Engineering</h5>
-                                    <p class="text-brand mb-2">JECRC University Jaipur India (2020 - 2024)</p>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, distinctio quidem! Quas expedita omnis soluta corporis maiores iusto suscipit voluptatem </p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-        <!--ABOUT END-->
-    </div>
-
-    <!--CONTENT WRAPPER END-->
-
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/js/aos.js"></script>
-    <script src="./assets/js/main.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
